@@ -10,3 +10,5 @@ Typically, I follow the analysis path of:
 6. For both normalized and non-normalized reads, and both IDBA and metaspades results: bin contigs > 5000 bp with maxbin2 and metabat2
 7. For both normalized and non-normalized reads, dereplicate bins per sample at 95% ANI with drep
 8. Biologically dereplicate bins within samples at 95% and 99% ANI with drep
+
+Files follow the format of (step)-tool.sbatch, for example, 021-kraken2.sbatch, 06-maxbin2.sbatch, 06-metabat2.sbatch, etc
