@@ -11,7 +11,7 @@ Standard workflow I use for metagenome analysis in Dr. Kostas Konstantinidis' la
 7. For both normalized and non-normalized reads, dereplicate bins per sample at 95% ANI with drep
 8. Biologically dereplicate bins within samples at 95% and 99% ANI with drep
 
-Files follow the format of (step)-tool.sbatch, for example, 021-kraken2.sbatch, 06-maxbin2.sbatch, 06-metabat2.sbatch, etc
+Files follow the format of (step)-tool.sbatch, for example, 021-kraken2.sbatch, 060-maxbin2.sbatch, 060-metabat2.sbatch, etc
 
 For raw non-human reads, I do a couple of slightly different steps:
 - Trim reads with fastp (1.1 - get coverage estimation with nonpareil, 1.2 - get beta diversity through mash distances)
