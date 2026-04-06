@@ -1,5 +1,6 @@
 # kostas-metagenomics-workflow
 Standard workflow I use for metagenome analysis in Dr. Kostas Konstantinidis' lab at Georgia Tech
+- Updates are in progress
 
 ## Typically, I follow the analysis path of:
 1. Upload reads to PACE
